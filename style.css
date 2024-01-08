@@ -364,7 +364,61 @@ ul.join-now-items {
     opacity: 1;
 }
 /* Best Gift End */
-
+/* Newsletter Start */
+.newsletter {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    padding: 80px 0;
+}
+.newsletters {
+    max-width: 896px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.newsletter-content h1 {
+    margin: 40px 0 22px;
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.newsletter-content p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+form.newsletter-form {
+    margin-top: 48px;
+    width: 648px;
+    position: relative;
+}
+form.newsletter-form input {
+    width: 100%;
+    padding: 25px 0 25px 30px;
+    border: none;
+    border-radius: 50px;
+    background: #FFF;
+    color: rgb(7 2 17 / 86%);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    outline: none;
+}
+button.subscribe-btn {
+    position: absolute;
+    top: 50%;
+    right: -40px;
+    transform: translate(0%, -50%);
+    padding: 24px 56px;
+    border-radius: 0px 50px 50px 0px;
+}
+/* Newsletter End */
 
 
 
