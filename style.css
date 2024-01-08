@@ -448,6 +448,10 @@ ul.footer-top-contact-info li {
 ul.footer-top-contact-info li img {
     margin-right: 16px;
 }
+ul.footer-top-contact-info li a {
+    color: #fff;
+    text-decoration: none;
+}
 /* Footer Middle Start */
 ul.social-link {
     padding: 48px 0;
