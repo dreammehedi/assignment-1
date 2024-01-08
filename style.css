@@ -232,9 +232,85 @@ ul.join-now-items {
     max-width: 140px;
 }
 /* Best Offer End */
-
-
-
+/* Functional Start */
+.functional-content h3 {
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.functional-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1068px;
+    margin: 0 auto 64px;
+    text-align: center;
+}
+.functional-content h1 {
+    color: #070211;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 28px;
+}
+.functional-content h1 span {
+    color: #F00;
+}
+.functional-content p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px; /* 160% */
+}
+.functional-images {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+}
+.discount-persentage-rel {
+    position: relative;
+}
+.discount-persentage {
+    text-align: center;
+    background: #F00;
+    width: 205px;
+    height: 205px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    border: 9px solid #fff;
+    transform: translate(-50%, -50%);
+}
+.discount-persentage-content h1 {
+    font-family: Inter;
+    font-size: 72px;
+    font-weight: 700;
+}
+.discount-persentage-content span {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 900;
+}
+.discount-persentage-content {
+    transform: rotate(-35deg);
+}
+.rectangle-shape {
+    position: absolute;
+    bottom: 1px;
+    left: 0; 
+    z-index: -1;
+}
+/* Functional End */
 
 
 
