@@ -31,6 +31,14 @@ img{
     border: 1px solid transparent;
     transition: all 1s ease;
 }
+.para{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
 /* Banner Start */
 .banner {
     border-radius: 16px;
@@ -78,7 +86,7 @@ img{
     margin-bottom: 48px;
     font-family: 'Inter', sans-serif;
 }
-.category p {
+.category h3 {
     color: #F00;
     font-size: 24px;
     font-weight: 500;
@@ -112,7 +120,7 @@ img{
 .midnight-party-content h1 {
     font-size: 64px;
     font-weight: 900;
-    line-height: 88px; /* 137.5% */
+    line-height: 88px;
     letter-spacing: 7.04px;
     margin-bottom: 24px;
 }
@@ -122,10 +130,6 @@ img{
 }
 .midnight-party-content p {
     color: rgba(255, 255, 255, 0.80);
-    font-family: 'Inter', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px; /* 166.667% */
     margin-bottom: 48px;
 }
 button.join-now-btn:hover {
@@ -192,11 +196,6 @@ ul.join-now-items {
     margin-bottom: 22px;
 }
 .best-offer-content p {
-    color: rgba(7, 2, 17, 0.60);
-    font-family: 'Inter', sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 32px;
     max-width: 393px;
 }
 .best-offer-img {
@@ -220,11 +219,6 @@ ul.join-now-items {
     margin-bottom: 16px;
 }
 .best-offer-year-content p {
-    color: rgba(7, 2, 17, 0.60);
-    font-family: 'Inter', sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 32px;
     margin-bottom: 43px;
 }
 .best-offer-year-content img {
@@ -257,13 +251,6 @@ ul.join-now-items {
 }
 .functional-content h1 span {
     color: #F00;
-}
-.functional-content p {
-    color: rgba(7, 2, 17, 0.60);
-    font-family: 'Inter', sans-serif;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 32px; /* 160% */
 }
 .functional-images {
     display: flex;
@@ -330,13 +317,6 @@ ul.join-now-items {
     text-transform: capitalize;
     margin-bottom: 22px;
 }
-.best-gift-content p {
-    color: rgba(7, 2, 17, 0.60);
-    font-family: 'Inter', sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 32px;
-}
 .best-gift-images {
     display: flex;
     justify-content: space-between;
@@ -385,13 +365,6 @@ ul.join-now-items {
     font-size: 48px;
     font-weight: 900;
     text-transform: capitalize;
-}
-.newsletter-content p {
-    color: rgba(7, 2, 17, 0.60);
-    font-family: 'Inter', sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 32px;
 }
 form.newsletter-form {
     margin-top: 48px;
